@@ -1,0 +1,15 @@
+name: TelePads
+version: '${project.version}'
+main: com.c78.telepads.TelePads
+api-version: '1.20'
+
+commands:
+  listpads:
+    description: List all Telepads
+  givepad:
+    permission: telepad.givepad
+    description: Adds a Telepad to your Inventory!(need Perm)
+
+permissions:
+  telepad.givepad:
+    default: op
